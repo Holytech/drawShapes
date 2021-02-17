@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DRAW SHAPES</h1>
+    <form style="margin-bottom:20px">
+        <select id="shape"> 
+            <option value="">Select shape</option>
+            <option value="rect">Quadilateral</option>
+            <option value="circle">Circle</option>
+            <option value="kite">Kite</option>
+            <option value="trampezium">Trampezium</option>
+            <option value="parallelogram">Parallelogram</option>
+            <option value="triangle">Triangle</option>
+            <option value="pentagon">Pentagon</option>
+            <option value="hexagon">Hexagon</option>
+            <option value="heptagon">Heptagon</option>
+            <option value="octagon">Octagon</option>
+        </select>
+        <input type="color" id="color" value="#FFFFFF">
+    </form>
+    <canvas height="400" width="600" id="canvas"></canvas>
+
+    <img src="img/char.png" alt="" id="image">
+    <script src="js/index.js"></script>
+</body>
+</html>
